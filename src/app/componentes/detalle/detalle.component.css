@@ -1,0 +1,73 @@
+#equipo {
+    position: fixed;
+    top: 120px;
+    left: 230px;
+    width: 65%;
+    border: 3px rgba(17, 63, 38, 0.932) solid;
+    padding: 1em 1em 1em 1em;
+    background-color: #bedad0;
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+#situar {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    margin-right: 125px;
+}
+
+.situarcampo {
+    margin-top: 2em;
+    font-size: 18px;
+}
+
+.campos {
+    margin-top: 3em;
+    font-size: 25px;
+}
+
+#nom {
+    margin-left: 6.7em;
+}
+
+#ape {
+    margin-left: 5.80em;
+}
+
+#org {
+    margin-left: 3.90em;
+}
+
+#mail {
+    margin-left: 8em;
+}
+
+#fecha {
+    margin-left: 2.55em;
+}
+
+#tel {
+    margin-left: 5.58em;
+}
+
+#inf {
+    margin-left: 0em;
+}
+
+input {
+    font-style: italic;
+}
+
+#boton {
+    margin-top: 2.5em;
+    margin-left: 53em;
+    font-family: Lacquer;
+    font-style: normal;
+    width: 100px;
+    height: 40px;
+    color: rgba(17, 63, 38, 0.932);
+    background-color: rgba(190, 218, 208, 0932);
+    border-radius: 10px;
+}

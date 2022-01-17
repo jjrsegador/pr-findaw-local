@@ -1,0 +1,24 @@
+<div id="equipo" [hidden]="!verContacto">
+
+    <div id="situar">
+
+        <h1>Detalle cliente</h1>
+
+        <div class="situarcampo">
+            <span id="nom">Nombre:</span> <a class="campos"> {{this.nombre}} </a> <br>
+            <span id="ape">Apellidos:</span><a class="campos"> {{this.apellidos}} </a> <br>
+            <span id="org">Organización:</span> <a class="campos"> {{this.organizacion}} </a> <br>
+            <span id="mail">Mail:</span> <a class="campos"> {{this.mail}} </a> <br>
+            <span id="fecha">Fecha Contacto:</span> <a class="campos"> {{this.fechaAlta.seconds * 1000 | date:'dd-MM-yyyy'}} </a> <br>
+            <span id="tel">Teléfono:</span> <a class="campos"> {{this.telefono}} </a> <br>
+            <span id="inf">Información adicional:</span> <a class="campos"> {{this.infadic}} </a> <br>
+        </div>
+
+        <div>
+            <input id="boton" type="submit" value="Cerrar" (click)="cerrarDetalle()" routerLink="home">
+        </div>
+
+
+    </div>
+
+</div>
